@@ -58,10 +58,10 @@ selector {
 border: 굵기 종류 색;
 
 2. 각각의 방향에 공통 적용할 때
-border-top:굴기 종류 색;
-border-right:굴기 종류 색;
-border-bottom:굴기 종류 색;
-border-left:굴기 종류 색;
+border-top:굵기 종류 색;
+border-right:굵기 종류 색;
+border-bottom:굵기 종류 색;
+border-left:굵기 종류 색;
 
 3. 각각의 방향,각각의 CSS속성 적용할 때
 border-top-style,
