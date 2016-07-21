@@ -1,8 +1,12 @@
-.header{
+.small-wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
 
+.header{
   height: 135px;
   border-top: 3px solid #ff7c98;
-  position: relative;
 }
 
 .logo{
@@ -10,36 +14,125 @@
   top: 20px;
   left: 50%;
   margin-left:-46px;
-  height: 92px;
-  width: 92px;
-  background: url("../images/baskinrobbins.png");
-  text-indent: -9999px;
-  cursor: pointer;
+}
+
+.util-sns{
+  float: left;
+  margin-top: 50px;
+}
+
+.util-sns-item{
+  float: left;
+  margin-right: 10px;
+}
+
+.util-sns-link{
+  display: block;
+}
+
+.cs{
+  position: absolute;
+  top: 60px;
+  right: 80px;
+
+}
+
+.cs:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cs-item{
+  float: left;
+  font-size: 11px;
+  margin-left: 20px;
+
+}
+
+.btn-wrap{
+  position: absolute;
+  right: 0;
+  top: 39px;
 }
 
 .btn-search{
   width: 54px;
   height: 54px;
+  border: 0;
+  background: url(../images/search.png);
   display: block;
-  background: url("../images/search.png");
   text-indent: -9999px;
-  border: 0px;
   cursor: pointer;
 }
 
-.welcome{
-  width: 1600px;
-  height: 150px;
-  background: url("../images/mon.jpg");
-  text-indent: -9999px;
-  cursor: pointer;
-  margin-bottom: 2px;
+.nav{
+  border-top: 1px solid #e2d9d6;
+  border-bottom: 2px solid #3f291a;
+  height: 47px;
+
 }
 
-.cool{
-  width: 1600px;
-  height: 697px;
-  background: url("../images/img_main_banner_10.jpg");
+.nav-member{
+  float: left;
+}
+
+.nav-member-item{
+  float: left;
+}
+
+/* 임시 안보임 */
+.gnb-depth2{
+  display: none;
+}
+
+.gnb{
+  float: right;
+}
+
+.gnb-depth1-item{
+  float: left;
+}
+
+.gnb-depth1-link{
+  display: block;
   text-indent: -9999px;
-  cursor: pointer;
+  height: 12px;
+  background: url(../images/gnb_menu.png) no-repeat;
+}
+
+.flavor{
+  width: 164px;
+  background-position:-133px 0;
+  margin-right: 59px;
+}
+
+.MENU{
+  width: 41px;
+  background-position: -416px 0;
+  margin-right: 59px;
+  margin-left: 59px;
+}
+
+.EVENT{
+  width: 43px;
+  background-position: -576px 0;
+  margin-right: 59px;
+  margin-left: 59px;
+
+}
+
+.STORE{
+  width: 42px;
+  background-position: -737px 0;
+  margin-right: 59px;
+  margin-left: 59px;
+
+}
+
+.ABOUT{
+  width: 50px;
+  background-position: -896px 0;
+  
+  margin-left: 59px;
 }
