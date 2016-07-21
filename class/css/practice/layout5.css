@@ -1,0 +1,195 @@
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header{
+  width: 1000px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #ea8c46;
+}
+
+.container{
+  height: 500px;
+}
+
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-child{
+  width: 320px;
+  height: 500px;
+  margin-right: 20px;
+  float: left;
+}
+
+.section1{
+  width:320px;
+  height: 180px;
+  margin-bottom: 20px;
+  background-color: coral;
+  float: left;
+}
+
+.a1{
+  width: 320px;
+  height: 180px;
+  float: left;
+}
+
+.section2{
+  width: 150px;
+  height: 180px;
+  margin-right: 20px;
+  background-color: brown;
+  float: left;
+}
+
+.a{
+  width: 150px;
+  height: 180px;
+  float: left;
+
+}
+
+.section3{
+  width: 150px;
+  height: 60px;
+  background-color: darkmagenta;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.section4{
+  width: 150px;
+  height: 100px;
+  background-color: salmon;
+  float: left;
+}
+
+.section5{
+  width: 320px;
+  height: 100px;
+  margin-top: 20px;
+  background-color: chocolate;
+  float: left;
+}
+
+.container-child2{
+  width: 320px;
+  height: 500px;
+  margin-right: 20px;
+  float: left;
+}
+
+.b1{
+  width: 320px;
+  height: 280px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.article1{
+  width: 150px;
+  height: 280px;
+  margin-right: 20px;
+  float: left;
+  background-color: darksalmon;
+}
+
+.b{
+  width: 150px;
+  height: 280px;
+  float: left;
+}
+
+.article2{
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+  float: left;
+  background-color: crimson;
+}
+
+.article3{
+  width: 150px;
+  height: 160px;
+  float: left;
+  background-color: darkcyan;
+}
+
+.article4{
+  width: 320px;
+  height: 200px;
+  float: left;
+  background-color: darkgreen;
+}
+
+.container-child3{
+  width: 320px;
+  height: 500px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.c1{
+  width: 320px;
+  height: 140px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.aside1{
+  width: 320px;
+  height: 60px;
+  margin-bottom: 20px;
+  float: left;
+  background-color: black;
+}
+
+.aside2{
+  width: 120px;
+  height: 60px;
+  margin-right: 20px;
+  float: left;
+  background-color: #aaaaaa;
+}
+
+.aside3{
+  width: 180px;
+  height: 60px;
+  float: left;
+  background-color: blanchedalmond;
+}
+
+.c2{
+  width: 320px;
+  height: 340px;
+  float: left;
+}
+
+.aside4{
+  width: 320px;
+  height: 260px;
+  float: left;
+  background-color: cadetblue;
+  margin-bottom: 20px;
+}
+
+.aside5{
+  width: 320px;
+  height: 60px;
+  float: left;
+  background-color: brown;
+}
+
+.footer{
+  width: 1000px;
+  height: 100px;
+  clear: both;
+  background-color: brown;
+}

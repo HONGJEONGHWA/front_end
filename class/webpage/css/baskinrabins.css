@@ -1,0 +1,45 @@
+.header{
+
+  height: 135px;
+  border-top: 3px solid #ff7c98;
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left:-46px;
+  height: 92px;
+  width: 92px;
+  background: url("../images/baskinrobbins.png");
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.btn-search{
+  width: 54px;
+  height: 54px;
+  display: block;
+  background: url("../images/search.png");
+  text-indent: -9999px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.welcome{
+  width: 1600px;
+  height: 150px;
+  background: url("../images/mon.jpg");
+  text-indent: -9999px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.cool{
+  width: 1600px;
+  height: 697px;
+  background: url("../images/img_main_banner_10.jpg");
+  text-indent: -9999px;
+  cursor: pointer;
+}
