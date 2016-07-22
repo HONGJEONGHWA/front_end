@@ -5,6 +5,8 @@
   <title>배스킨라빈스 홈페이지</title>
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/baskinrabins.css">
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/gnb.js"></script>
 </head>
 <body>
 <div>
@@ -32,41 +34,51 @@
   <nav class="nav">
     <div class="small-wrap">
     <ul class="nav-member">
-      <li class="nav-member-item"><a href="#" class="nav-member-link">LOGIN</a></li>
-      <li class="nav-member-item"><a href="#" class="nav-member-link">JOIN</a></li>
+      <li class="nav-member-item"><a href="#" class="nav-member-link login">LOGIN</a></li>
+      <!-- [D] 로그인 되었을 때 표시되는 태그 라인 -->
+      <!--
+      <li class="nav-member-item"><a href="#" class="nav-member-link logout">LOGOUT</a></li>
+      -->
+      <li class="nav-member-item"><a href="#" class="nav-member-link join">JOIN</a></li>
+      <!-- [D] 로그인 되었을 때 표시되는 태그 라인 -->
+      <!--
+      <li class="nav-member-item"><a href="#" class="nav-member-link mypage">MYPAGE</a></li>
+      -->
     </ul>
     <ul class="gnb">
 
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item flavor">
         <a href="" class="gnb-depth1-link flavor">FLAVOR OF THE MONTH</a>
-        <ul class="gnb-depth2">
+        <ul class="gnb-depth2 img">
           <li class="gnb-depth2-item">
-            <a href=""  ><img src="images/month.png" alt="welcome to the jungle"/></a></li>
+            <a href=""><img src="images/month.png" alt="welcome to the jungle"/></a></li>
         </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item MENU">
         <a href="" class="gnb-depth1-link MENU">MENU</a>
         <ul  class="gnb-depth2">
+          <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">아이스크림</a></li>
+          <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">아이스크림케이크</a></li>
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">음료</a></li>
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">커피</a></li>
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">디저트</a></li>
         </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item EVENT">
         <a href="" class="gnb-depth1-link EVENT">EVENT</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">진행중이벤트</a></li>
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">당첨자 발표</a></li>
         </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item STORE">
         <a href="" class="gnb-depth1-link STORE">STORE</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">매장찾기</a></li>
           <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">고객센터</a></li>
         </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item ABOUT">
         <a href="" class="gnb-depth1-link ABOUT">ABOUT</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item" ><a href="" class="gnb-depth2-link">공지사항</a></li>
@@ -78,7 +90,9 @@
       </li>
     </ul>
       </div>
+    <div class="gnb-bg"></div>
   </nav>
+
   <div class="welcome">
     <a href=""><img src="images/mon.jpg" alt="dd"/></a>
   </div>
