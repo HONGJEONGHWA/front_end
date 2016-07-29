@@ -2,69 +2,48 @@
 .case2,
 .case3,
 .case4{
-  border: 1px solid purple;
-  margin-bottom: 30px;
+  border:1px solid red;
+  margin-bottom:30px;
 }
 
-
 .box1{
-  width: 300px;
-  height: 150px;
-  background-color: skyblue;
-  float: left;
+  width:300px;
+  height:150px;
+  background:skyblue;
+  float:left;
 }
 
 .box2{
-   width: 300px;
-   height: 150px;
-   background-color: orange;
-  float: right;
- }
+  width:300px;
+  height:150px;
+  background:orange;
+  float:right;
+}
 
 .clear-box{
-  height: 100px;
-  background-color:#aaaaaa;
-  margin-top: 10px;
-  clear: both;
+  height:100px;
+  background:#aaa;
+  margin-top:10px;
+  clear:both;
 }
 
 .float-wrap{
-  float: left;
+  float:left;
 }
 
 .overflow-wrap{
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .empty-tag-wrap .clearfix{
-  clear: both;
+  clear:both;
 }
 
 .pseudo-wrap:after{
-  content: "";
-  display: block;
-  clear: both;
+  content:"";
+  display:block;
+  clear:both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
