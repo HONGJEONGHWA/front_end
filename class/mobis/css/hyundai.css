@@ -1,0 +1,254 @@
+.header{
+  height: 90px;
+
+}
+
+.inner{
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.logo{
+  float: left;
+}
+
+.gnb{
+  float: right;
+  margin-top: 11px;
+}
+
+.gnb-depth1-item{
+  position: relative;
+  padding: 30px 43px 32px;
+  float: left;
+}
+
+.gnb-depth1-item.join1{
+  padding-right: 0;
+}
+
+.gnb-depth1-link{
+  float: left;
+  z-index: 100;
+}
+
+.gnb-depth2{
+  display: none;
+  padding: 97px 0 25px;
+  position: absolute;
+  background: url("../images/mobis/gnbBg.png") no-repeat 0 0 #f6f6e8;
+  width: 180px;
+}
+
+.gnb-depth2-item{
+  text-align: center;
+  padding:0 0 15px;
+  background: #f6f6e8;
+}
+
+.gnb-depth2-link{
+  font-size: 13px;
+  display: block;
+  padding: 3px 3px;
+}
+
+
+.gnb-depth2.head{
+  position: absolute;
+  top: 31px;
+  left: 80px;
+}
+
+
+.gnb-depth1-link.introduction{
+  width: 94px;
+  height: 16px;
+  background:url("../images/mobis/menu1.png");
+  display: block;
+  text-indent: -9999px;
+}
+.gnb-depth1-link.activity{
+  width: 94px;
+  height: 16px;
+  background:url("../images/mobis/menu2.png");
+  display: block;
+  text-indent: -9999px;
+}
+.gnb-depth1-link.community{
+  width: 57px;
+  height: 16px;
+  background:url("../images/mobis/menu3.png");
+  display: block;
+  text-indent: -9999px;
+}
+.gnb-depth1-link.join{
+  width: 97px;
+  height: 16px;
+  background:url("../images/mobis/menu4.png");
+  display: block;
+  text-indent: -9999px;
+}
+
+.main-div{
+  position: relative;
+}
+
+.main{
+  background: url("../images/mobis/visual0.jpg") no-repeat 0 -110px;
+  width: 1060px;
+  height: 420px;
+  text-indent: -9999px;
+  display: block;
+  background-size: 1060px 706px;
+}
+
+.main2{
+  position: absolute;
+  top: 105px;
+  left: 250px;
+}
+
+.main3{
+  position: absolute;
+  top: 155px;
+  left: 322px;
+  width: 411px;
+}
+
+.main4{
+  background: url("../images/mobis/v0_txt2.png") no-repeat 0 0;
+  width: 560px;
+  height: 34px;
+  text-indent: -9999px;
+  position: absolute;
+  top: 230px;
+  left: 250px;
+}
+
+.heading{
+  height: 630px;
+  position: relative;
+}
+
+.heading-left{
+  position: absolute;
+  top: 19px;
+  left: 0;
+}
+
+.heading-right{
+  position: absolute;
+  top: 19px;
+  right: 0;
+}
+
+.scroll{
+  position: relative;
+  height: 20px;
+}
+
+.heading-h2{
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  margin-left: -53px;
+  background: url("../images/mobis/mBlock0_tit1.gif") no-repeat 0 0;
+  text-indent: -9999px;
+  width: 106px;
+  height: 18px;
+}
+
+.article1{
+  position: absolute;
+  top: 78px;
+  left: 0;
+}
+
+.article-list{
+  float: left;
+  width: 310px;
+  height: 435px;
+  background: #faef73;
+}
+
+.article-link{
+
+}
+
+.article-list-item{
+  height: 385px;
+  width: 238px;
+  margin: 35px 36px;
+  position: relative;
+}
+
+.article-item-title{
+  width: 238px;
+  height: 184px;
+}
+
+.article-item-title1{
+  width: 238px;
+  height: 168px;
+  text-align: center;
+  z-index: 100;
+  margin: 20px 0 0;
+  display: block;
+}
+
+.article-item-title2{
+  width: 238px;
+  height: 184px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  z-index: 200;
+  margin: 20px 0 0;
+}
+
+.article-item-text0{
+  position: relative;
+}
+
+.article-item-text{
+ position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.article-item-text1{
+  background: url("../images/mobis/mBanS0_tit1.png") no-repeat 0 0;
+  width: 76px;
+  height: 20px;
+  text-indent: -9999px;
+  display: block;
+  z-index: 300;
+}
+
+.article-item-text2{
+  margin: 22px 0 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  z-index: 400;
+  top: 0;
+  left: 0;
+}
+
+.article-item-text3{
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: #666;
+  line-height: 18px;
+}
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
