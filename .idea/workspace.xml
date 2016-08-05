@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ba4600-c086-491d-8a1e-6f1857fb7094" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/mobis/css/hyundai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/mobis/html/hyundai.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/baskinrabins.html" afterPath="$PROJECT_DIR$/class/webpage/baskinrabins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/sunmoon.css" afterPath="$PROJECT_DIR$/class/webpage/css/sunmoon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/sunmoon.html" afterPath="$PROJECT_DIR$/class/webpage/sunmoon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frornt_end.iws" />
@@ -30,36 +26,18 @@
     <favorites_list name="frornt_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5203125">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="hyundai.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/class/mobis/html/hyundai.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5808989">
-                  <caret line="97" column="104" selection-start-line="97" selection-start-column="104" selection-end-line="97" selection-end-column="104" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="hyundai.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/class/mobis/css/hyundai.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5212187">
-                  <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41349292">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,7 +61,6 @@
         <option value="$PROJECT_DIR$/class/html/element/element.html" />
         <option value="$PROJECT_DIR$/class/html/element/text.html" />
         <option value="$PROJECT_DIR$/class/html/element/test.html___jb_bak___" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/class/html/element/test.html" />
         <option value="$PROJECT_DIR$/class/html/practice/p1.html" />
         <option value="$PROJECT_DIR$/class/html/practice/p2.html" />
@@ -127,6 +104,7 @@
         <option value="$PROJECT_DIR$/class/webpage/baskinrabins.html" />
         <option value="$PROJECT_DIR$/class/mobis/css/hyundai.css" />
         <option value="$PROJECT_DIR$/class/mobis/html/hyundai.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -189,8 +167,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,6 +373,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,8 +454,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22291666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -537,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,13 +677,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.142857">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/html/hello_html.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.586207">
@@ -797,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,13 +777,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/js/jquery-3.1.0.min.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69711536">
           <caret line="0" column="1003" selection-start-line="0" selection-start-column="1003" selection-end-line="0" selection-end-column="1003" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/js/jquery-3.1.0.js">
@@ -876,22 +844,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.87191">
           <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/mobis/css/hyundai.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5212187">
-          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/mobis/html/hyundai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5808989">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="97" column="104" selection-start-line="97" selection-start-column="104" selection-end-line="97" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/mobis/css/hyundai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41349292">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
