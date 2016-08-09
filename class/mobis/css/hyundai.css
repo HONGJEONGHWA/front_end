@@ -19,8 +19,8 @@
 
 .gnb-depth1-item{
   position: relative;
-  padding: 30px 43px 32px;
   float: left;
+  padding: 0 43px 0;
 }
 
 .gnb-depth1-item.join1{
@@ -28,16 +28,28 @@
 }
 
 .gnb-depth1-link{
+  position: relative;
+  z-index: 600;
   float: left;
-  z-index: 100;
+  padding: 30px 0 32px;
+  text-align: center;
 }
 
 .gnb-depth2{
-  display: none;
+  z-index: 500;
   padding: 97px 0 25px;
   position: absolute;
+  left: 50%;
+  margin-left: -90px;
   background: url("../images/mobis/gnbBg.png") no-repeat 0 0 #f6f6e8;
   width: 180px;
+  text-align: center;
+}
+
+.gnb-depth2.head{
+  position: absolute;
+  left: 50%;
+  margin-left: -68.5px;
 }
 
 .gnb-depth2-item{
@@ -52,39 +64,31 @@
   padding: 3px 3px;
 }
 
-
-.gnb-depth2.head{
-  position: absolute;
-  top: 31px;
-  left: 80px;
-}
-
-
 .gnb-depth1-link.introduction{
   width: 94px;
   height: 16px;
-  background:url("../images/mobis/menu1.png");
+  background:url("../images/mobis/menu1.png") no-repeat 0 30px ;
   display: block;
   text-indent: -9999px;
 }
 .gnb-depth1-link.activity{
   width: 94px;
   height: 16px;
-  background:url("../images/mobis/menu2.png");
+  background:url("../images/mobis/menu2.png") no-repeat 0 30px;
   display: block;
   text-indent: -9999px;
 }
 .gnb-depth1-link.community{
   width: 57px;
   height: 16px;
-  background:url("../images/mobis/menu3.png");
+  background:url("../images/mobis/menu3.png") no-repeat 0 30px;
   display: block;
   text-indent: -9999px;
 }
 .gnb-depth1-link.join{
   width: 97px;
   height: 16px;
-  background:url("../images/mobis/menu4.png");
+  background:url("../images/mobis/menu4.png") no-repeat 0 30px;
   display: block;
   text-indent: -9999px;
 }
@@ -142,6 +146,8 @@
   right: 0;
 }
 
+
+
 .scroll{
   position: relative;
   height: 20px;
@@ -158,62 +164,70 @@
   height: 18px;
 }
 
-.article1{
+
+
+
+.article-list{
   position: absolute;
   top: 78px;
   left: 0;
-}
-
-.article-list{
-  float: left;
   width: 310px;
   height: 435px;
   background: #faef73;
 }
 
-.article-link{
 
-}
 
 .article-list-item{
   height: 385px;
   width: 238px;
-  margin: 35px 36px;
+  padding: 35px 36px;
+  position: relative;
+
+}
+
+.article-list-div{
+  height: 280px;
   position: relative;
 }
 
-.article-item-title{
+.article-wrap{
   width: 238px;
   height: 184px;
 }
 
+
+.article-item{
+  display: block;
+}
+
+
+
 .article-item-title1{
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background:url("../images/mobis/mBanSave_bg.jpg") no-repeat 35px 0;
   width: 238px;
   height: 168px;
-  text-align: center;
+  text-indent: -9999px;
   z-index: 100;
-  margin: 20px 0 0;
-  display: block;
+  display: inline-block;
+  text-align: center;
+
 }
 
 .article-item-title2{
+  background: url("../images/mobis/reviewFream0.png") no-repeat -36px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 238px;
   height: 184px;
-  text-align: center;
-  display: block;
+  text-indent: -9999px;
+  display: inline-block;
   overflow: hidden;
   z-index: 200;
-  margin: 20px 0 0;
-}
-
-.article-item-text0{
-  position: relative;
-}
-
-.article-item-text{
- position: absolute;
-  top: 30px;
-  left: 0;
 }
 
 .article-item-text1{
@@ -223,16 +237,13 @@
   text-indent: -9999px;
   display: block;
   z-index: 300;
+  text-align: center;
 }
 
 .article-item-text2{
-  margin: 22px 0 12px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  z-index: 400;
-  top: 0;
-  left: 0;
+  margin: 22px 0 0;
+  z-index: 200;
+
 }
 
 .article-item-text3{
@@ -240,11 +251,492 @@
   font-size: 13px;
   color: #666;
   line-height: 18px;
+
+}
+
+.article-item-link3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.m-bar{
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 238px;
+  margin-left: 30px;
+
+
+}
+
+.aside-list{
+  position: absolute;
+  top: 78px;
+  left: 360px;
+  width: 455px;
+  height: 300px;
+}
+
+.aside-item-module{
+  width: 222px;
+  height: 253px;
+}
+
+.aside2-item-module{
+  position: absolute;
+  top: 0;
+  left: 232px;
+  width: 222px;
+  height: 300px;
+}
+
+.aside2-dd{
+  width: 222px;
+  height: 256px;
+}
+
+.aside3-list{
+  position: relative;
+}
+
+.aside3-item-module{
+  background: url("../images/mobis/mVideoSt0_img.gif") no-repeat;
+  width: 222px;
+  height: 284px;
+  display: block;
+  text-indent: -9999px;
+  position: absolute;
+  top: 56px;
+  right: 0;
+}
+
+.aside-item-text{
+  margin: 10px 0 0;
+  padding: 0 0 0 13px;
+  background: url("../images/mobis/yellow1x15_bar.gif") no-repeat 0 1px;
+}
+
+
+.aside-item-text3{
+  background: url("../images/mobis/photoGoTx.png") no-repeat 0 0;
+  width: 106px;
+  height: 14px;
+  text-indent: -9999px;
+  display: inline-block;
+  float: right;
+  margin-top: 14px;
+}
+
+
+.aside-item-link{
+  font-size: 16px;
+  color: #333;
 }
 
 
 
+.aside4{
+  position: absolute;
+  top: 553px;
+  left: 0;
+  background: url("../images/mobis/togetherTx0.gif") no-repeat;
+  width: 295px;
+  height: 69px;
+  text-indent: -9999px;
+  display: block;
+}
 
+.container{
+  position: absolute;
+  top: 392px;
+  left: 360px;
+  width: 700px;
+  padding: 25px 0 0;
+  border-top: 2px solid #4b524c;
+}
+
+.container-h2{
+  background: url("../images/mobis/mNews_tit.png") no-repeat;
+  width: 112px;
+  height: 18px;
+  text-indent: -9999px;
+  display: block;
+}
+
+.container-list{
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 162px;
+  overflow: hidden;
+}
+
+.container-list-item{
+  float: left;
+  width: 330px;
+  margin: 0 38px 0 0;
+  background: url("../images/mobis/grayTop20x2_bar.gif") no-repeat 0 0;
+}
+
+.container-list-item2{
+  float: left;
+  width: 330px;
+  background: url("../images/mobis/grayTop20x2_bar.gif") no-repeat 0 0;
+}
+
+.container-item-title{
+  padding: 10px 0 0;
+}
+
+.container-item-link{
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #333;
+
+}
+
+.image{
+  display: inline-block;
+  margin: -2px 0 0 5px;
+}
+
+.container-item-title1{
+  margin: 5px 0 0;
+}
+
+.container-item-link1{
+  font-size: 14px;
+}
+
+.container-item-title2{
+  margin: 14px 0 0;
+}
+
+.container-item-link2{
+  color: #777;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+
+.section{
+  width: 100%;
+  margin: 60px auto;
+  padding: 38px 0 0;
+  height: 346px;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.section-inner{
+  position: relative;
+  padding: 28px 58px 0;
+}
+
+.heading-h3{
+  background: url("../images/mobis/mCsr_tit.png") no-repeat;
+  width: 88px;
+  height: 15px;
+  text-indent: -9999px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -44px;
+}
+
+.l-scroll{
+  position:absolute;
+  top: 117px;
+  left: 0;
+}
+
+.r-scroll{
+  position: absolute;
+  top: 117px;
+  right: 0;
+}
+
+.section-list{
+  float: left;
+  margin-left: 61px;
+}
+
+.section-list-item1{
+  float: left;
+  background: url("../images/mobis/mCsrIcon1.png") no-repeat;
+  width: 190px;
+  height: 255px;
+  text-indent: -9999px;
+  display: block;
+}
+
+.section-list-item2{
+  float: left;
+  background: url("../images/mobis/mCsrIcon2.png") no-repeat;
+  width: 190px;
+  height: 255px;
+  text-indent: -9999px;
+  display: block;
+  margin-left: 61px;
+}
+
+.section-list-item3{
+  float: left;
+  background: url("../images/mobis/mCsrIcon3.png") no-repeat;
+  width: 190px;
+  height: 255px;
+  text-indent: -9999px;
+  display: block;
+  margin-left: 61px;
+}
+
+.section-list-item4{
+  float: left;
+  background: url("../images/mobis/mCsrIcon4.png") no-repeat;
+  width: 190px;
+  height: 255px;
+  text-indent: -9999px;
+  display: block;
+  margin-left: 61px;
+}
+
+.content{
+  margin: 60px auto;
+}
+
+.content-list-item1{
+  float: left;
+  width: 260px;
+  height: 202px;
+  padding: 0 30px 0 0;
+  margin: 0 49px 0 0;
+  border-right: 1px solid #e7e7e7;
+}
+
+.content-item-title{
+  
+}
+
+.heading-h4{
+  float: left;
+  background: url("../images/mobis/mNoti_tit.gif") no-repeat;
+  width: 72px;
+  height: 20px;
+  text-indent: -9999px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.scroll-enter{
+  float: right;
+}
+
+.content-item-text1{
+  margin: 2px 0 12px;
+}
+
+.content-item-link1{
+  font-size: 15px;
+  color: #444;
+  line-height: 18px;
+}
+
+.content-item-text2{
+  padding: 0 0 12px;
+  margin:  0 0 12px;
+  border-bottom: 1px dashed #e7e7e7;
+}
+
+.content-item-link2{
+  color: #777;
+  font-size: 13px;
+}
+
+
+.content-list-item2{
+  float: left;
+  width: 330px;
+  height: 202px;
+  padding: 0 30px 0 0;
+  margin: 0 50px 0 0;
+  border-right: 1px solid #e7e7e7;
+}
+
+.content-item-title2{
+  background: url("../images/mobis/mCsrIntro_tit.gif") no-repeat;
+  width: 110px;
+  height: 20px;
+  text-indent: -9999px;
+  display: block;
+}
+
+.content-item-text5{
+  background: url("../images/mobis/mCsrIntroTx.gif") no-repeat;
+  width: 234px;
+  height: 33px;
+  text-indent: -9999px;
+  display: block;
+  margin-top: 20px;
+}
+
+.content-item-text6{
+  background: url("../images/mobis/mCsrIntroBanner.gif") no-repeat;
+  width: 328px;
+  height: 104px;
+  text-indent: -9999px;
+  display: block;
+  margin-top: 25px;
+}
+
+.content-list3{
+  float: left;
+  width: 290px;
+  height: 200px;
+}
+
+.content-list-item4{
+  float: right;
+  width: 148px;
+}
+
+.content-item{
+  float: left;
+  width: 124px;
+  height: 177px;
+  margin: 0 18px 0 0;
+}
+
+.content-item-title3{
+  background: url("../images/mobis/webzine_tit.gif") no-repeat;
+  width: 35px;
+  height: 18px;
+  text-indent: -9999px;
+  display: block;
+}
+
+.content-item-text7{
+  padding: 7px 0 0;
+  margin-top: 20px;
+  border-top: 3px solid #e6e6e6;
+  font-size: 15px;
+  color: #777;
+  line-height: 23px;
+}
+
+.content-item-text8{
+  margin-top: 65px;
+  position: relative;
+}
+
+.content-btn{
+  padding: 11px 0 12px 12px;
+  width: 121px;
+  color: #777;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: -0.25px;
+  border: 1px solid #ebebeb;
+  border-bottom: 1px solid #d3d3d3;
+  background: #fff;
+}
+
+.btn-row{
+  position: absolute;
+  top: 17px;
+  right: 9px;
+}
+
+.footer{
+  width: 100%;
+  height: 130px;
+  background: #323232;
+}
+
+.footer-inner{
+  padding: 32px 0 0;
+  position: relative;
+}
+
+.footer-wrap{
+  float: left;
+}
+
+.footer-list{
+  width: 650px;
+}
+
+.footer-item-list{
+  display: block;
+  float: left;
+  padding: 0 13px;
+  background: url("../images/mobis/footer_bar.gif") no-repeat 0 4px;
+}
+
+.footer-item-list.first{
+  padding-left: 0;
+  background: none;
+}
+
+.footer-item-link{
+  display: block;
+  font-size: 14px;
+  color: #aeaeae;
+  letter-spacing: -0.5px;
+}
+
+.footer-item-list2{
+  display: block;
+  margin: 10px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #aeaeae;
+  letter-spacing: -0.5px;
+}
+
+.footer-wrap2{
+  position: absolute;
+  top: 40px;
+  right: 0;
+
+}
+
+.footer-list2{
+  float: left;
+
+}
+
+
+.footer-select{
+  padding: 0 26px 0 12px;
+  width: 152px;
+  height: 35px;
+  border: 1px solid #020202;
+  color: #fff;
+  line-height: 35px;
+  text-align: left;
+  font-size: 13px;
+  background: url("../images/mobis/famBt_bu.gif") no-repeat 128px 0 #333;
+  margin-right: 5px;
+
+}
+
+
+.footer-btn{
+  float: right;
+}
+
+.footer-btn2{
+  width: 55px;
+  height: 35px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #020202;
+  background: #111111;
+  line-height: 31px;
+}
 
 
 .clearfix:after{
