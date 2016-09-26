@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    #result{
+      width: 200px;
+      height: 200px;
+      background: yellow;
+      color: red;
+      font-size: 72px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -100px 0 0 -100px;
+      text-align: center;
+    }
+  </style>
+
+  <script>
+
+//    var first = window.prompt('첫번째 값을 입력하시오');
+//    var second = window.prompt('두번째 값을 입력하시오');
+//    var operator= window.prompt('계산종류를 입력하시오') ;
+
+    function cal(){
+      var first = document.getElementById('first').value;
+      var second = document.getElementById('second').value;
+      var operator= document.getElementById('operator').value;
+
+      var result = 0;
+
+      first = parseInt(first);
+      second = parseInt(second);
+
+      if( operator == '+' || operator=='1' ) {
+        result = first + second;
+      } else if ( operator =='-' || operator=='2') {
+        result = first - second;
+      }  else if ( operator =='*' || operator=='3' ) {
+        result = first * second;
+      }  else {
+        result = first / second;
+      }
+
+//      document.write('<p>');
+//      document.write(result);
+//      document.write('</p>');
+    }
+
+
+    var node = document.createTextNode(result); //result 결과값을 html 형태로 만들어 줌
+    var div = document.createElement('div');
+    div.setAttribute('id' , 'result');
+    var element = document.getElementById("body"); // id=result 인 태그 영역을 가져옴
+    element.appendChild(div); //id=result 인 태그 영역에 생성된 result 의 결과값을 넣어줌
+
+
+  </script>
+</head>
+<body id="body">
+
+<div>
+  <label>첫번째 값:</label>
+  <input type="text" id="first"/>
+</div>
+<div>
+  <label>두번째 값:</label>
+  <input type="text" id="second"/>
+</div>
+<div>
+  <label>계산종류:</label>
+  <input type="text" id="operator"/>
+</div>
+<div>
+  <button type="button" onclick="cal();">계산</button>
+</div>
+
+</body>
+</html>
