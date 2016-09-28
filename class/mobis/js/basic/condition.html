@@ -25,25 +25,25 @@
 //    var second = window.prompt('두번째 값을 입력하시오');
 //    var operator= window.prompt('계산종류를 입력하시오') ;
 
-    function cal(){
-      var first = document.getElementById('first').value;
-      var second = document.getElementById('second').value;
-      var operator= document.getElementById('operator').value;
+          function cal(){
+        var first = document.getElementById('first').value;
+        var second = document.getElementById('second').value;
+        var operator= document.getElementById('operator').value;
 
-      var result = 0;
+        var result = 0;
 
-      first = parseInt(first);
-      second = parseInt(second);
+        first = parseInt(first);
+        second = parseInt(second);
 
-      if( operator == '+' || operator=='1' ) {
-        result = first + second;
-      } else if ( operator =='-' || operator=='2') {
-        result = first - second;
-      }  else if ( operator =='*' || operator=='3' ) {
-        result = first * second;
-      }  else {
-        result = first / second;
-      }
+        if( operator == '+' || operator=='1' ) {
+          result = first + second;
+        } else if ( operator =='-' || operator=='2') {
+          result = first - second;
+        }  else if ( operator =='*' || operator=='3' ) {
+          result = first * second;
+        }  else {
+          result = first / second;
+        }
 
 //      document.write('<p>');
 //      document.write(result);
