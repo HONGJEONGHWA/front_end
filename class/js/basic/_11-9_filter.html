@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script>
+
+    //순차적 노드 접근
+    //this 와 $(this) 비교
+    $('ul.menu li').each(function(index){
+      console.log( this );
+    });
+
+    $('ul.menu li').each(function(index){
+      console.log ($( this ));
+    });
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

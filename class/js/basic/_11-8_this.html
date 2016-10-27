@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script>
+
+    //순차적 노드 접근
+    $('ul.menu li').each(function(index){
+      $('ul.menu li').eq(index).css('border', '4px solid #' + ('' + (321 + 100 * index)));
+    });
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
