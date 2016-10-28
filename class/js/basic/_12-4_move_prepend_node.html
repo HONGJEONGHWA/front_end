@@ -26,14 +26,9 @@
 
   $(document).ready(function(){
 
-    var count = 0;
-
-       $('.btnAdd').on('click', function(){
-
-         count++;
-
-       $('ul.menu').append( $('<li>new menu'  + count +'</li>'));
-       });
+    $('ul.menu li').on('click', function(){
+      $('ul.menu').prepend( $(this) );
+    });
           });
 
   </script>

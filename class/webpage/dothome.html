@@ -5,6 +5,20 @@
   <title>폼요소 연습</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/dothome.css" />
+  <script src="js/jquery-3.1.0.js"></script>
+  <script>
+    $(function(){
+
+//      $('.gnb-depth1-link').on('이벤트', 함수)
+      $('.gnb-depth1-item').on('mouseenter', function(){
+//        $('.gnb-depth2').css('display', 'block');
+        $(this).children('.gnb-depth2').css('display', 'block');
+      });
+      $('.gnb-depth1-item').on('mouseleave', function(){
+        $(this).children('.gnb-depth2').css('display', 'none');
+      });
+    });
+  </script>
 </head>
 <body>
 

@@ -3,6 +3,7 @@
  */
 
 $(function(){
+// $(document).ready(function)
 
     $('.gnb-depth1-link').on('mouseenter', function(){
         $('.gnb-depth2').delay(500).stop().fadeIn(1000);

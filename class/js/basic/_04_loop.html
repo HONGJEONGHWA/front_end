@@ -3,8 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-</head>
-<body>
 
+
+  <style>
+    #result{
+      width:200px;
+      height:200px;
+      background:yellow;
+      color:red;
+      font-size:72px;
+      font-weight:bold;
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin:-100px 0 0 -100px;
+      text-align:center;
+      line-height:200px;
+    }
+  </style>
+
+  <script>
+
+      var a = 0;
+      for (var i = 1; i <= 100; i++) {
+        a = a + i;
+      }
+
+      var node = document.createTextNode(a);
+      // div 태그 새로 생성
+      var div = document.createElement('div');
+      // div 태그에 result id 추가
+      div.setAttribute('id', 'result');
+      // a 결과값을 새로 생성된 div태그에 넣어줌
+      div.appendChild(node);
+      // ==> <div id="result">100</div>
+      // id=body 인 태그 영역을 가져옴
+      var element = document.getElementById("body");
+      // id=body 인 태그 영역에 생성된 result 결과값을 넣어줌
+      element.appendChild(div);
+  </script>
+
+</head>
+<body id="body">
 </body>
 </html>
