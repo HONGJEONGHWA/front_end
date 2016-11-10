@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+    .box{
+      width: 70px;
+      height: 70px;
+
+      position: absolute;
+      left: 0;
+
+      background: #fa5742;
+      
+      transition: left 1s ;
+    }
+
+    .box1{ transition: left 2s ease; }
+    .box2{ transition: left 2s linear; }
+    .box3{ transition: left 2s ease-in; }
+    .box4{ transition: left 2s ease-out; }
+    .box5{ transition: left 2s ease-in-out; }
+    .box6{ transition: left 2s cubic-bezier(0,1.4,.7,-0.31); }
+    
+    .box-end{
+      left: 80%;
+    }
+
+    .btn-move{
+      width: 100px;
+      height: 50px;
+
+      border: 0;
+      background: #237491;
+      color: #ffffff;
+      font-weight: bold;
+
+      position: absolute;
+      bottom: 100px;
+    }
+    
+    /*.box2{*/
+      /*top: 80px;*/
+    /*}*/
+
+    /*.box3{*/
+      /*top: 160px;*/
+    /*}*/
+
+    /*.box4{*/
+      /*top: 240px;*/
+    /*}*/
+
+    /*.box5{*/
+      /*top: 320px;*/
+    /*}*/
+
+    /*.box6{*/
+      /*top: 400px;*/
+    /*}*/
+
+
+  </style>
+
+  <script src="../js/lib/jquery-3.1.1.js"></script>
+  <script>
+    $(function(){
+
+      $('.box').each(function(index){
+
+
+        $('.box').eq(index).css({
+          top : index * 80
+        }).addClass('box' + (index+1)).text('box' + (index+1));
+
+
+
+      });
+
+      $('.btn-move').on('click', function(){
+        $('.box').toggleClass('box-end');
+      });
+
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+<button type="button" class="btn-move">Move!!!</button>
+
+</body>
+</html>
