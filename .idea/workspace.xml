@@ -5,15 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/class/css3/_01_transition_02.html" line="21" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ba4600-c086-491d-8a1e-6f1857fb7094" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/_01_transition_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/_01_transition_02.html" />
-      <change type="DELETED" beforePath="C:\Users\DB405T3A-F08C\Desktop\front_end\class\zespri\images\146522545055020.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/html5_api/geo.html" afterPath="$PROJECT_DIR$/class/html5_api/geo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/zespri/zespri.html" afterPath="$PROJECT_DIR$/class/zespri/zespri.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/zespri/zspri.css" afterPath="$PROJECT_DIR$/class/zespri/zspri.css" />
-    </list>
+    <list default="true" id="f3ba4600-c086-491d-8a1e-6f1857fb7094" name="Default" comment="" />
     <ignored path="frornt_end.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +24,18 @@
     <favorites_list name="frornt_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.62299716">
+    <splitter split-orientation="horizontal" split-proportion="0.4923077">
       <split-first>
         <leaf>
           <file leaf-file-name="zespri.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/zespri/zespri.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42099324">
-                  <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.75672513">
+                  <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -52,8 +47,8 @@
           <file leaf-file-name="zspri.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/zespri/zspri.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8522976">
-                  <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+                <state vertical-scroll-proportion="-2.316854">
+                  <caret line="189" column="10" selection-start-line="189" selection-start-column="10" selection-end-line="189" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -127,8 +122,8 @@
         <option value="$PROJECT_DIR$/class/html5_api/geo.html" />
         <option value="$PROJECT_DIR$/class/css3/_01_transition_01.html" />
         <option value="$PROJECT_DIR$/class/css3/_01_transition_02.html" />
-        <option value="$PROJECT_DIR$/class/zespri/zspri.css" />
         <option value="$PROJECT_DIR$/class/zespri/zespri.html" />
+        <option value="$PROJECT_DIR$/class/zespri/zspri.css" />
       </list>
     </option>
   </component>
@@ -140,10 +135,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="5" />
-    <option name="width" value="1077" />
-    <option name="height" value="1051" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -191,7 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,6 +238,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -327,8 +322,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="5" width="1077" height="1051" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -386,6 +381,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class/zespri/zspri.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class/mobis/css/hyundai.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0130576715">
@@ -405,13 +408,6 @@
         <state vertical-scroll-proportion="0.20674646">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ver_20151015_jsjq2/04부_jQuery_기초와활용/04장_노드생성_추가_삭제_이동/lesson01_노드생성추가/02_ing/01_00_핵심01_예제01_노드생성_풀이전코드.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="121" />
         </state>
       </provider>
     </entry>
@@ -664,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.107143">
           <caret line="19" column="5" selection-start-line="15" selection-start-column="20" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43434343">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.571428">
           <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,10 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.357143">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#932#1211#0" expanded="false" />
-            <element signature="e#1260#1546#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14029181">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.428572">
           <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.25">
           <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,18 +734,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/zespri/zspri.css">
+    <entry file="file://$PROJECT_DIR$/class/zespri/zespri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8522976">
-          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.75672513">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/zespri/zespri.html">
+    <entry file="file://$PROJECT_DIR$/class/zespri/zspri.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42099324">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.316854">
+          <caret line="189" column="10" selection-start-line="189" selection-start-column="10" selection-end-line="189" selection-end-column="10" />
           <folding />
         </state>
       </provider>
