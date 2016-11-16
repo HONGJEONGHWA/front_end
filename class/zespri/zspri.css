@@ -1,3 +1,5 @@
+
+
 .header{
   position: fixed;
   top: 0;
@@ -156,13 +158,12 @@
   display: none;
 }
 
-
-
 .center{
   position: absolute;
   top: 50%;
   left: 50%;
 }
+
 
 .td6{
   right: auto;
@@ -282,7 +283,6 @@
 }
 
 .section-side{
-  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -291,7 +291,8 @@
   height: 630px;
   padding-top: 100px;
   text-align: center;
-  z-index: 10;
+  z-index: 50;
+  margin-top: -530px;
 }
 
 .w1200{
@@ -363,13 +364,14 @@
 .section-second{
   position: relative;
   background: radial-gradient(ellipse at center, rgba(226,237,97,1) 0%,rgba(213,228,84,1) 52%,rgba(184,210,57,1) 100%);
-  min-height: 974px;
+  height: 974px;
   overflow: hidden;
+  z-index: 0;
+  padding-top: 48px;
 }
 
 .media-wrap{
   position: relative;
-  text-align: center;
 }
 
 .motion-box{
@@ -387,7 +389,6 @@
   position: absolute;
   top: 35px;
   right: 0;
-  width: 280px;
 }
 
 .bg{
@@ -399,7 +400,7 @@
   z-index: 0;
 }
 
-.obj-zi{
+.obj-wrap{
   position: absolute;
   z-index: 1;
 }
@@ -426,9 +427,205 @@
   bottom: 60px;
 }
 
+.slide-wrap{
+  padding: 0 20px;
+  z-index: 20;
+}
+
+.slide-visual{
+  padding-top: 240px;
+}
+
+.slide-prev{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  left: -48px;
+  background: url("images/slide_prev.png") no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 0;
+  text-indent: -99999em;
+  font-size: 0;
+}
+
+.visual-track2{
+  position: relative;
+  padding: 0 140px;
+}
+
+.txt2{
+  position: absolute;
+  top: 0;
+  right: 140px;
+  text-align: right;
+  overflow: hidden;
+}
+.slide2-h2{
+  font-size: 50px;
+  font-weight: 200;
+  color: #9b8510;
+  line-height: 1.1;
+}
+
+.font1{
+  display: block;
+  font-size: 130px;
+  color: #f3ca00;
+  font-weight: 900;
+}
+
+.font1 span{
+  color: #9faf24;
+  padding-left: 30px;
+}
+
+.font2 span{
+  font-weight: 900;
+}
+
+.substance2{
+  padding: 50px 0;
+  font-size: 25px;
+  color: #9faf24;
+}
+
+.slide2-main-visual{
+  margin: 25px 0 0 -30px;
+}
 
 
+.slide2-btn{
+  box-sizing: border-box;
+}
 
+.slide2-btn-link{
+  padding: 9px 10px 9px 40px;
+  border-radius: 50px;
+  background: #9faf24;
+  border: 3px solid #9faf24;
+}
+
+
+.slide2-btn-wrap li{
+  float: left;
+}
+
+.slide2-btn-move{
+  line-height: 1.5;
+  vertical-align: middle;
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.slide-next{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+ right: -68px;
+  background: url("images/slide_next.png") no-repeat;
+  width: 68px;
+  height: 68px;
+  border: 0;
+  text-indent: -99999em;
+  font-size: 0;
+}
+
+
+.section-third{
+  position: relative;
+  padding-top: 46px;
+  margin-top: -46px;
+}
+
+.section-third:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: url("images/px3_bg.png") repeat-x 50% 0;
+  width: 100%;
+  height: 46px;
+}
+
+.oj-wrap{
+  background: linear-gradient(to bottom, rgba(255,255,217,1) 0%,rgba(247,250,233,1) 52%,rgba(214,232,152,1) 80%,rgba(208,229,136,1) 100%);
+}
+
+.block-wrap{
+  position: relative;
+}
+
+.block-wrap img{
+  padding-top: 30px;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide3-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 100px 0 0 255px;
+  box-sizing: border-box;
+}
+
+.slide2-btn-move{
+  line-height: 1.5;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.section-fourth{
+  position: relative;
+  padding-top: 46px;
+  margin-top: -46px;
+}
+
+.section-fourth:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: url("images/px4_bg1.png") repeat-x 50% 0;
+  width: 100%;
+  height: 46px;
+}
+
+.information-wrap{
+  background: url("images/px4_bg2.jpg") 0 0;
+}
+
+.w1024{
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.fourth-h1{
+  display: block;
+  font-size: 95px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.fourth-text{
+  padding: 5px 0 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #194b35;
+}
 
 
 
